@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+
+* {
+  font-family: 'Fraunces' , sans-serif;
+}
+
+html {
+  width: 100%;
+
+}
+
+html, body {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  background-color: #FFF5D7;
+  outline: none;
+}
+
+app-root {
+  min-height: 100%;
+  display: block;
+  position: relative;
+  margin:0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+button, div {
+  outline: none;
+}

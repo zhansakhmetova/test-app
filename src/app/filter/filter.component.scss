@@ -1,0 +1,34 @@
+@import "src/assets/styles/display";
+
+.filter {
+  margin: 15px;
+  padding: 15px;
+
+  .filter__title {
+    margin-bottom: 10px;
+  }
+
+  .genres {
+    .genre {
+      border: 2px solid #FF5E6C;
+      padding: 4px;
+      cursor: pointer;
+      background: #FFF5D7;
+      outline: none;
+      margin-right: 10px;
+    }
+
+    .genre:active {
+      background: #FF5E6C;
+    }
+    .reset {
+      background: #000000;
+      border: none;
+      color: #FFF5D7;
+      cursor: pointer;
+    }
+    .reset:hover {
+      color: #FF5E6C;
+    }
+  }
+}

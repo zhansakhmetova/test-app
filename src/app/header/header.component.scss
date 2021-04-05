@@ -1,0 +1,25 @@
+@import "src/assets/styles/display";
+
+.header {
+  background: #FFF5D7;
+  color: #000;
+  border-bottom: 1px solid #000;
+
+  .title {
+    font-size: 32px;
+  }
+
+  .list {
+    cursor: pointer;
+    outline: none;
+  }
+
+  .list:hover {
+    text-decoration: underline;
+    text-decoration-color: #FF5E6C;
+    color: #FF5E6C;
+
+  }
+}
+
+

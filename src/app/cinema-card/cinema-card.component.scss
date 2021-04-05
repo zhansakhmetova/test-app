@@ -1,0 +1,29 @@
+@import "src/assets/styles/display";
+
+.card-poster {
+  border: 1px solid;
+  margin: 20px;
+  box-sizing: border-box;
+
+  .poster {
+    object-fit: contain;
+    width: 250px;
+    height: 300px;
+  }
+
+  .btn-watch {
+    border: none;
+    background: #FF5E6C;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .btn-watch:hover {
+    color: #FFF5D7;
+  }
+}
+
