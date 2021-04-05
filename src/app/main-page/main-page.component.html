@@ -1,2 +1,2 @@
-<app-filter (val)="getGenreName($event)"></app-filter>
+<app-filter (val)="getGenreName($event)" (reset)="resetGenre()"></app-filter>
 <app-list-movies [checkedGenre]="genre"></app-list-movies>

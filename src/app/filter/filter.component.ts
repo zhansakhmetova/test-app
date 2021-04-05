@@ -8,6 +8,7 @@ import {GenreType, genreType} from '../../../content/movie.model';
 })
 export class FilterComponent implements OnInit {
   @Output() val: EventEmitter<string> = new EventEmitter<string>();
+  @Output() reset: EventEmitter<string> = new EventEmitter<string>();
   genres = genreType;
   genre: GenreType;
   genreList: string[] = [];
@@ -26,8 +27,8 @@ export class FilterComponent implements OnInit {
     this.val.emit(g);
   }
 
-  reset() {
-
+  genreReset() {
+    this.reset.emit();
   }
 
 

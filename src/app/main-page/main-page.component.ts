@@ -13,4 +13,8 @@ export class MainPageComponent  {
     this.genre = genre;
   }
 
+  resetGenre() {
+
+  }
+
 }
