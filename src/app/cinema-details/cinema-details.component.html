@@ -1,10 +1,10 @@
 <article class="container">
-  <button class="back-btn flex align-center" routerLink=""><img class="img" src="assets/back.svg">Back</button>
-  <div class="details flex">
+  <button class="back-btn" routerLink=""><img class="img" src="assets/back.svg">Back</button>
+  <div class="details">
     <div class="details__img">
       <img [src]="mov?.img" class="movie__img">
     </div>
-    <div class="details__annotation flex flex-column justify-between">
+    <div class="details__annotation">
       <span class="movie__name">{{mov?.name}}</span>
       <span class="movie__description">{{mov?.description}}</span>
       <span class="movie__genre">{{mov?.genres}}</span>

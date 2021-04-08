@@ -1,6 +1,8 @@
-@import "src/assets/styles/display";
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   background: #FFF5D7;
   color: #000;
   border-bottom: 1px solid #000;

@@ -1,6 +1,7 @@
-@import "src/assets/styles/display";
 
 .container {
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 45px;
 

@@ -1,7 +1,7 @@
-<section class="container flex justify-center">
+<section class="container">
   <input type="text" class="search" placeholder="Search . . ." [(ngModel)]="search">
 </section>
-<section class="container flex justify-center">
+<section class="container">
   <div class="list__movies"
        *ngFor="let mov of filteredMovies.length ? (filteredMovies | search: search) : (movies | search:search)">
     <app-cinema-card [data]="mov" (val)="getVal($event)"></app-cinema-card>

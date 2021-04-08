@@ -1,14 +1,18 @@
-@import "src/assets/styles/display";
 
 .filter {
   margin: 15px;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
 
   .filter__title {
     margin-bottom: 10px;
   }
 
   .genres {
+    display: flex;
+    justify-content: center;
+
     .genre {
       border: 2px solid #FF5E6C;
       padding: 4px;

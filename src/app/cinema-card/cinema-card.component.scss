@@ -1,6 +1,8 @@
-@import "src/assets/styles/display";
 
 .card-poster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid;
   margin: 20px;
   box-sizing: border-box;
@@ -20,6 +22,8 @@
     width: 150px;
     justify-content: center;
     margin: 10px;
+    display: flex;
+    align-items: center;
   }
 
   .btn-watch:hover {

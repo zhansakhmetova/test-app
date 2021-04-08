@@ -1,7 +1,7 @@
 <section class="container">
-  <div class="filter flex flex-column">
+  <div class="filter">
     <span class="filter__title">Choose genre:</span>
-    <div class="genres flex justify-center">
+    <div class="genres">
       <button class="genre" *ngFor="let genr of genreList" (click)="getMovieByGenre(genr)">{{genr}}</button>
       <button class="reset" (click)="reset">Reset</button>
     </div>
