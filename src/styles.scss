@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
-
+@import "assets/styles/breakpoint";
 
 * {
   font-family: 'Fraunces' , sans-serif;
@@ -34,6 +34,14 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+
+  @include for-size(phone) {
+    width: 300px;
+  }
+
+  @include for-size(tablet) {
+    width: 615px;
+  }
 }
 
 

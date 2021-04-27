@@ -1,3 +1,5 @@
+@import "src/assets/styles/breakpoint";
+
 
 .filter {
   margin: 15px;
@@ -13,26 +15,33 @@
     display: flex;
     justify-content: center;
 
+    @include for-size(phone) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @include for-size(tablet){
+      flex-wrap: wrap;
+    }
+
     .genre {
       border: 2px solid #FF5E6C;
       padding: 4px;
       cursor: pointer;
       background: #FFF5D7;
-      outline: none;
-      margin-right: 10px;
+      margin: 10px;
+
+      @include for-size(phone) {
+        margin: 5px;
+      }
+
+      @include for-size(tablet) {
+        margin: 8px;
+      }
     }
 
     .genre:active {
       background: #FF5E6C;
-    }
-    .reset {
-      background: #000000;
-      border: none;
-      color: #FFF5D7;
-      cursor: pointer;
-    }
-    .reset:hover {
-      color: #FF5E6C;
     }
   }
 }

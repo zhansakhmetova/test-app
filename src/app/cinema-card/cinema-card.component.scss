@@ -1,3 +1,4 @@
+@import "src/assets/styles/breakpoint";
 
 .card-poster {
   display: flex;
@@ -11,6 +12,11 @@
     object-fit: contain;
     width: 250px;
     height: 300px;
+
+    @include for-size(tablet) {
+      width: 200px;
+      height: 260px;
+    }
   }
 
   .btn-watch {

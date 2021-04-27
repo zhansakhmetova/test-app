@@ -1,3 +1,4 @@
+@import "src/assets/styles/breakpoint";
 
 .header {
   display: flex;
@@ -8,12 +9,25 @@
   border-bottom: 1px solid #000;
 
   .title {
+    background: black;
+    color: #FFF5D7;
+    padding: 12px;
+    border-radius: 12px;
     font-size: 32px;
+
+    @include for-size(phone) {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    @include for-size(tablet) {
+      font-size: 24px;
+    }
   }
 
   .list {
     cursor: pointer;
-    outline: none;
+    text-decoration: underline;
   }
 
   .list:hover {

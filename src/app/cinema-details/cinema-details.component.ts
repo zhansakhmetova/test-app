@@ -24,4 +24,5 @@ export class CinemaDetailsComponent implements OnInit {
       this.mov = this.movie.find(r => r.id === +this.id);
     });
   }
+
 }

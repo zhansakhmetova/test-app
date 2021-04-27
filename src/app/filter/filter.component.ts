@@ -27,9 +27,6 @@ export class FilterComponent implements OnInit {
     this.val.emit(g);
   }
 
-  genreReset() {
-    this.reset.emit();
-  }
 
 
 }
